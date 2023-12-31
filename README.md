@@ -75,7 +75,6 @@ options:
 ```
 
 ###
-you will find two notebooks in "jupyter notebook" file, these notebooks contain modified and additional code from Python files
-the notebooks were used to generate images that were used during the presentation
+you will find two notebooks in "jupyter notebook" file, these notebooks contain modified and additional code from Python files. The notebooks were used to generate images that were used during the presentation
 
 ### DISCLAIMER: The notebook cells were executed during different sessions and environments. To re-run the cells on your device you might need to modify the code slightly  
