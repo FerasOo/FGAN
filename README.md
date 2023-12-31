@@ -2,11 +2,11 @@
 Pytorch implementation of [Fence GAN: Towards Better Anomaly Detection](https://arxiv.org/abs/1904.01209)
 
 ### 2D Experiment
-'''
+```
 python3 2D/main.py
-'''
+```
 ### training options
-'''
+```
 usage: 2D experiment [-h] [--alpha ALPHA] [--beta BETA] [--gamma GAMMA] [--power POWER] [--pretrain PRETRAIN] [--epochs EPOCHS] [--batch_size BATCH_SIZE]
                      [--distribution DISTRIBUTION] [--device DEVICE] [--models_dir MODELS_DIR] [--pictures_dir PICTURES_DIR] [--seed SEED] [--d_lr D_LR]
                      [--g_lr G_LR] [--d_hidden D_HIDDEN] [--g_hidden G_HIDDEN] [--plot_freq PLOT_FREQ] [--loss_freq LOSS_FREQ]
@@ -37,14 +37,14 @@ options:
                         epoch frequency to save images
   --loss_freq LOSS_FREQ
                         epoch frequency to print loss
-'''
+```
 
 ### MNIST
-'''
+```
 python3 MNIST/main.py
-'''
+```
 ### training options
-'''
+```
 usage: 2D experiment [-h] [--ano_class ANO_CLASS] [--alpha ALPHA] [--beta BETA] [--gamma GAMMA] [--power POWER] [--pretrain PRETRAIN] [--epochs EPOCHS]
                      [--batch_size BATCH_SIZE] [--latent_dim LATENT_DIM] [--device DEVICE] [--models_dir MODELS_DIR] [--seed SEED] [--d_lr D_LR]
                      [--g_lr G_LR] [--loss_freq LOSS_FREQ]
@@ -72,7 +72,7 @@ options:
   --loss_freq LOSS_FREQ
                         epoch frequency to print loss
 
-'''
+```
 
 ###
 you will find two notebooks in "jupyter notebook" file, these notebooks contain modified and additional code from Python files
