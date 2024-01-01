@@ -45,7 +45,7 @@ python3 MNIST/main.py
 ```
 ### training options
 ```
-usage: 2D experiment [-h] [--ano_class ANO_CLASS] [--alpha ALPHA] [--beta BETA] [--gamma GAMMA] [--power POWER] [--pretrain PRETRAIN] [--epochs EPOCHS]
+usage: MNIST [-h] [--ano_class ANO_CLASS] [--alpha ALPHA] [--beta BETA] [--gamma GAMMA] [--power POWER] [--pretrain PRETRAIN] [--epochs EPOCHS]
                      [--batch_size BATCH_SIZE] [--latent_dim LATENT_DIM] [--device DEVICE] [--models_dir MODELS_DIR] [--seed SEED] [--d_lr D_LR]
                      [--g_lr G_LR] [--loss_freq LOSS_FREQ]
 
